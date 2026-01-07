@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Biodata</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f8c8dc, #d6b3ff);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image:url("background 3.jpg");
+            color: rgb(188, 9, 125);
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #832e86;
+            padding: 2px;
+            text-align: center;
+        }
+
+        nav span {
+            background-color: #832e86;
+            padding: 3px 8px;
+            font-family: 'Comic Sans MS', cursive;
+            color: #ffffff;
+        }
+
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .education-card {
+            background: rgb(247, 120, 198);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgb(230, 191, 241);
+            text-align: justify;
+            font: 1em Arial;
+            overflow: auto; /* penting untuk float image */
+        }
+
+        .education-card img {
+            border: 3px solid purple;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #832e86;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<a name="top"></a>
+
+<header>
+    <h1 style="border: 10px dashed rgba(109, 4, 128, 0.742); background-color: #ffffff; display: inline-block;">
+        <b>🎓 MY EDUCATION 🎓</b>
+    </h1>
+</header>
+
+<nav>
+    <marquee behavior="scroll" direction="left">
+        <span>🎓 "Education is the most powerful weapon which you can use to change the world" - Nelson Mandela 🎓</span>
+    </marquee>
+</nav>
+
+<section>
+
+    <!-- Education Item 1 -->
+    <div class="education-card">
+        <img src="skjt.jpeg" height="110" style="float:left; margin-right:15px;">
+        <h2 style="margin: 0 0 10px 0; color: #fff;">🏫 Primary School (Morning School)</h2>
+        <p style="margin: 0; font-style: italic; color: #491ca1;">
+            Sekolah Kebangsaan Jalan Tanjung | 2012 - 2017
+        </p>
+        <p style="margin-top: 10px; color: #670f60;">
+            I completed my primary education at SK Jalan Tanjung from 2012 to 2017 as a morning school student. During my years there, I gained many meaningful experiences and memories. I served as a school prefect for three years and actively represented the school and district in netball competition.
+        </p>
+    </div>
+
+    <!-- Education Item 2 -->
+    <div class="education-card">
+        <img src="kafa.png" height="120" style="float:right; margin-left:15px;">
+        <h2 style="margin: 0 0 10px 0; color: #fff;">🕌 Religious School (Afternoon School)</h2>
+        <p style="margin: 0; font-style: italic; color: #491ca1;">
+            KAFA Benteng Tengah | 2012 - 2017
+        </p>
+        <p style="margin-top: 10px; color: #670f60;">
+            Alongside my primary education, I attended KAFA Benteng Tengah in Kampung Sijangkang as an afternoon school. This experience strengthened my religious knowledge, discipline, and moral values. It also taught me the importance of balancing academic studies with spiritual learning in my daily life.
+        </p>
+    </div>
+
+    <!-- Education Item 3 -->
+    <div class="education-card">
+        <img src="SMKSJ.png" height="110" style="float:left; margin-right:15px;">
+        <h2 style="margin: 0 0 10px 0; color: #fff;">🏫 Secondary School</h2>
+        <p style="margin: 0; font-style: italic; color: #491ca1;">
+            Sekolah Menengah Kebangsaan Sijangkang Jaya | 2018 - 2022
+        </p>
+        <p style="margin-top: 10px; color: #670f60;">
+            I continued my secondary education at SMK Sijangkang Jaya from 2018 to 2022. Throughout this period, I was appointed as the class leader for three consecutive years. I also joined the school netball club, which helped me develop leadership skills, confidence, and teamwork abilities.
+        </p>
+    </div>
+
+    <!-- Education Item 4 -->
+    <div class="education-card">
+        <img src="UITM.png" height="110" style="float:right; margin-left:15px;">
+        <h2 style="margin: 0 0 10px 0; color: #fff;">🎓 Diploma</h2>
+        <p style="margin: 0; font-style: italic; color: #491ca1;">
+            Universiti Teknologi MARA (UiTM) | 2023 - 2026
+        </p>
+        <p style="margin-top: 10px; color: #670f60;">
+            I am currently pursuing a Diploma in Information Management at Universiti Teknologi MARA (UiTM) Rembau from October 2023 until February 2026. This programme enhances my knowledge in information management, digital skills, and communication while preparing me for future professional challenges.
+        </p>
+    </div>
+
+</section>
+
+<section>
+   <button onclick="document.location='biodata.html'">📝</button>
+    <button onclick="document.location='education.html'">🎓</button>
+    <button onclick="document.location='family.html'">👨‍👩‍👧‍👦</button>
+    <button onclick="document.location='personal_favourite.html'">🌟</button>
+    <button onclick="document.location='hobbies.html'">🎨</button>
+    <button onclick="document.location='gallery.html'">🖼️</button>
+
+<p style="text-align:center;">
+
+    <button style="padding:10px 20px; border-radius:8px; background-color:#f78cc6; color:white; border:none; cursor:pointer;"
+        onclick="document.location='homepage.html'">Back to Homepage</button>
+
+    <button style="padding:10px 20px; border-radius:8px; background-color:#f78cc6; color:white; border:none; cursor:pointer;"
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+        Back to Top
+    </button>
+    </section>
+</p>
+
+<footer>
+    <p>&copy; 2025 Nur Ellyana Natasha's Personal Website</p>
+</footer>
+
+</body>
+</html>
+
+
+
+ 
+

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Favourite</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f8c8dc, #d6b3ff);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image:url(background6.jpg);
+            color: rgb(188, 9, 125);
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #832e86;
+            padding: 2px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #6a0572;
+            font-weight: bold;
+            margin: 10px;
+            padding: 10px 15px;
+            border-radius: 20px;
+            background-color: #ffffff;
+        }
+
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #832e86;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+
+        /* CARD BOX */
+        .card{
+            width: 90%;
+            margin: 30px auto;
+            padding: 25px;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            border-radius: 25px;
+            background: linear-gradient(120deg,#ffd9f2,#e6d9ff);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .icon-area{
+            text-align: center;
+        }
+
+        .fav-icon{
+            font-size: 60px;
+        }
+
+        .icon-area .title{
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 8px;
+            color:#5a0066;
+        }
+
+        /* LIST */
+        .fav-list{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            text-align: center;
+            color: #000;
+        }
+
+        /* EACH ITEM */
+        .fav-item{
+            margin: 15px;
+            background: white;
+            padding: 6px 13px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            font-size: 14px;
+            color:#5a0066;
+        }
+
+        .fav-item img{
+            border: 5px solid #b03bbf;
+            border-radius: 10px;
+        }
+
+        .songs .fav-item{
+           width: 180px;
+        }
+
+        .songs .fav-item img{
+           height: 110px;
+        }
+
+        .songs .fav-item audio{
+           width: 100%;
+        }
+
+        
+
+   </style>
+</head>
+
+<body>
+
+<header>
+    <h1 style="border: 10px dashed rgba(109, 4, 128, 0.742); background-color: #ffffff; display: inline-block;">
+        🌟 MY PERSONAL FAVOURITE 🌟
+    </h1>
+</header>
+
+<nav>
+    <marquee behavior="scroll" direction="left" 
+    style="color: #ffffff;">
+       🌟 "This is my comfort. My calm. My favourite thing" 🌟
+    </marquee>
+</nav>
+
+<br>
+
+<!-- MOVIES -->
+<div class="card">
+  <div class="icon-area">
+    <div class="fav-icon">🎬</div>
+    <div class="title">Movies</div>
+  </div>
+
+  <div class="fav-list">
+
+    <div class="fav-item">
+      <img src="favmoviemarvel.webp" height="150">
+      <p>Marvel</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="favmoviehorror.jpg" height="150">
+      <p>Conjuring</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="favmovienarnia.png" height="150">
+      <p>Narnia</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="favmovieharry.jpg" height="150">
+      <p>Harry Potter</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="favmoviedoraemon.jpg" height="150">
+      <p>Doraemon</p>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- DRAMA -->
+<div class="card">
+  <div class="icon-area">
+    <div class="fav-icon">📺</div>
+    <div class="title">Drama</div>
+  </div>
+
+  <div class="fav-list">
+
+    <div class="fav-item">
+      <img src="dramaba.jpg" height="150">
+      <p>bon appetit your majesty</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="dramac7s.jpg" height="150">
+      <p>Cinta 7 Susun</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="dramacloy.jpg" height="150">
+      <p>Crash Landing on You</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="dramagoblin.jpg" height="150">
+      <p>Goblin</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="dramatd.jpeg" height="150">
+      <p>Taxi Driver</p>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- SONGS -->
+<div class="card songs">
+  <div class="icon-area">
+    <div class="fav-icon">🎵</div>
+    <div class="title">Songs</div>
+  </div>
+
+  <div class="fav-list">
+
+    <div class="fav-item">
+      <img src="lagumc.jpeg" height="150">
+      <p>Dato' Sri Siti Nurhaliza - Menamakanmu Cinta</p>
+      <audio controls>
+        <source src="siti_nurhaliza_dato_sri_siti_nurhaliza_ade_govinda_menamakanmu_c.m4a" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="fav-item">
+      <img src="lagucttw.jpg" height="150">
+      <p>Aina Abdul – Cinta Tak Pernah Tepat Waktu</p>
+      <audio controls>
+        <source src="aina-abdul-cinta-tak-pernah-tepat-waktu.m4a" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="fav-item">
+      <img src="minmalik.jpeg" height="150">
+      <p>Min Malik – 
+        Flora Cinta</p>
+        <br>
+      <audio controls>
+        <source src="lagufc.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="fav-item">
+      <img src="billie.jpg" height="150">
+      <p>Billie Eilish – WILDFLOWER</p>
+      <br>
+      <audio controls>
+        <source src="laguw.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- FOOD -->
+<div class="card">
+  <div class="icon-area">
+    <div class="fav-icon">🍽</div>
+    <div class="title">Food</div>
+  </div>
+
+  <div class="fav-list">
+
+    <div class="fav-item">
+      <img src="foodpa.webp" height="150">
+      <p>Chicken Papric</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="foodcc.jpeg" height="150">
+      <p>Chicken Chop/ Grill</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="foodbc.jpg" height="150">
+      <p>Chicken Buttermilk</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="foodag.jpeg" height="150">
+      <p>Ayam Gepuk</p>
+    </div>
+    
+    <div class="fav-item">
+      <img src="foodbnc.jpg" height="150">
+      <p>mixed rice porridge</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- DRINK -->
+<div class="card">
+  <div class="icon-area">
+    <div class="fav-icon">🥤</div>
+    <div class="title">Drink</div>
+  </div>
+
+  <div class="fav-list">
+
+    <div class="fav-item">
+      <img src="drinkc.png" height="150">
+      <p>Cendol</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="drinkcs.png" height="150">
+      <p>Coconut Shake</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="drinkjt.jpeg" height="150">
+      <p>Watermelon Juice</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="drinkta.jpg" height="150">
+      <p>Teh Ice</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="drinkmf.jpg" height="150">
+      <p>Mangga Float</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- COLOUR -->
+<div class="card">
+  <div class="icon-area">
+    <div class="fav-icon">🌈</div>
+    <div class="title">Colours</div>
+  </div>
+
+  <div class="fav-list">
+
+    <div class="fav-item">
+      <img src="colourp.png" height="150">
+      <p>Purple</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="colouryp.jpg" height="150">
+      <p>Yellow Pastel</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="colourbp.jpeg" height="150">
+      <p>Blue Pastel</p>
+    </div>
+  </div>
+</div>
+
+<!-- BOOKS -->
+<div class="card Books">
+  <div class="icon-area">
+    <div class="fav-icon">📚</div>
+    <div class="title">Books</div>
+  </div>
+
+  <div class="fav-list">
+
+    <div class="fav-item">
+      <img src="bookscc.webp" height="150">
+      <p>Chef Cuisine (Romance Novel)</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="booksh.jpeg" height="150">
+      <p>Jangan Biar Dia Masuk (Horror Novel)</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="booksf.webp" height="150">
+      <p>Bidan (fixi Novel)</p>
+    </div>
+
+    <div class="fav-item">
+      <img src="booksam.jpg" height="150">
+      <p>Dr Alpha Male (romance Novel)</p>
+    </div>
+  </div>
+</div>
+
+<section>
+  <button onclick="document.location='biodata.html'">📝</button>
+    <button onclick="document.location='education.html'">🎓</button>
+    <button onclick="document.location='family.html'">👨‍👩‍👧‍👦</button>
+    <button onclick="document.location='personal_favourite.html'">🌟</button>
+    <button onclick="document.location='hobbies.html'">🎨</button>
+    <button onclick="document.location='gallery.html'">🖼️</button>
+
+<p style="text-align:center;">
+
+    <button style="padding:10px 20px; border-radius:8px; background-color:#f78cc6; color:white; border:none; cursor:pointer;"
+        onclick="document.location='homepage.html'">Back to Homepage</button>
+
+    <button style="padding:10px 20px; border-radius:8px; background-color:#f78cc6; color:white; border:none; cursor:pointer;"
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+        Back to Top
+    </button>
+    </section>
+</p>
+
+<footer>
+    <p>&copy; 2025 Nur Ellyana Natasha's Personal Website</p>
+</footer>
+
+</body>
+</html>
+

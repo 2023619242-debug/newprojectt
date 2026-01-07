@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Biodata</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8c8dc, #d6b3ff);
+    margin:0;
+}
+
+/* Header */
+header{
+    background-image:url(background7.jpg);
+    color:#bc097d;
+    text-align:center;
+    padding:10px;
+}
+
+/* Nav */
+nav{
+    background:#832e86;
+    text-align:center;
+    padding:5px 0;
+}
+
+nav p{
+    margin:0;
+    color:white;
+    font-family:"Comic Sans MS", cursive;
+}
+
+/* Section */
+section{
+    padding:30px;
+}
+
+/* Wrapper setiap tahun */
+.year-box{
+    background:#f9d3ec;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:25px;
+}
+
+.year-box.purple{
+    background:#e8c8ff;
+}
+
+/* Grid gallery */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:15px;
+}
+
+/* Kad gambar */
+.card{
+    background:white;
+    border-radius:12px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Gambar */
+.card img{
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:8px;
+}
+
+/* Caption */
+.card p{
+    color:#6a0572;
+    margin:5px 0 0 0;
+}
+
+section{
+    padding:30px;
+    text-align:center;
+}
+
+footer{
+    background-color: #832e86;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1 style="border:10px dashed rgba(105,17,125,0.74); background:#fff; display:inline-block;">
+        🖼️ MY GALLERY 🖼️
+    </h1>
+</header>
+
+<nav>
+    <marquee behavior="scroll" direction="left">
+        <p>🖼️ Moments captured, memories preserved 🖼️</p>
+    </marquee>
+</nav>
+
+<section>
+
+    <p style="text-align:center; color:#7d1b7e;">
+        Each year holds a special memory 💖
+    </p>
+
+    <!-- PINK BOX -->
+    <div class="year-box">
+        <div class="gallery">
+            <div class="card">
+                <img src="g1.5.jpeg">
+                <img src="g1.2.jpeg">
+                <img src="g1.3.jpeg">
+                <img src="g1.4.jpeg">
+                <p>“A little kid with a heart full of laughter.”</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PURPLE BOX -->
+    <div class="year-box purple">
+        <div class="gallery">
+            <div class="card">
+                <img src="g2.jpeg">
+                <img src="g2.2.jpeg">
+                <img src="g2.3.jpeg">
+                <img src="g2.6.jpg">
+                <img src="g2.5.jpg">
+                 <img src="g2.4.jpg">
+                <p>“Learning wasn’t just from books, but from the friends beside me.”</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PINK BOX -->
+    <div class="year-box">
+        <div class="gallery">
+            <div class="card">
+                <img src="g3.jpeg">
+                <img src="g3.2.jpeg">
+                <img src="g3.3.jpeg">
+                <img src="g3.4.jpeg">
+                <img src="g3.5.jpeg">
+                <p>“School days were filled with stories — falling, rising, and laughing together.”</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PURPLE BOX -->
+    <div class="year-box purple">
+        <div class="gallery">
+            <div class="card">
+                <img src="g4.jpeg">
+                <img src="g4.2.jpeg">
+                <img src="g4.3.jpeg">
+                <img src="g4.4.jpeg">
+                <img src="g4.5.jpeg">
+                <img src="g4.6.jpeg">
+                <p> “As long as I have them, I’m never really alone.”</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PINK BOX -->
+    <div class="year-box">
+        <div class="gallery">
+            <div class="card">
+                <img src="g5.jpeg">
+                <img src="g5.2.jpeg">
+                <img src="g5.3.jpeg">
+                <img src="g5.4.jpeg">
+                <img src="g5.5.jpeg">
+                <img src="g5.6.jpeg">
+                <p>Diploma Life- “This is where my dreams start to feel real.”</p>
+            </div>
+        </div>
+    </div>
+
+     <!-- PURPLE BOX -->
+    <div class="year-box purple">
+        <div class="gallery">
+            <div class="card">
+                <img src="g6.jpeg">
+                <img src="g6.2.jpeg">
+                <img src="g6.3.jpeg">
+                <img src="g6.4.jpeg">
+                <img src="g6.5.jpeg">
+                <p> “Internship isn’t easy, but it made me stronger.”</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section>
+
+   <button onclick="document.location='biodata.html'">📝</button>
+    <button onclick="document.location='education.html'">🎓</button>
+    <button onclick="document.location='family.html'">👨‍👩‍👧‍👦</button>
+    <button onclick="document.location='personal_favourite.html'">🌟</button>
+    <button onclick="document.location='hobbies.html'">🎨</button>
+    <button onclick="document.location='gallery.html'">🖼️</button>
+
+    <p style="text-align:center;">
+
+        <button style="padding:10px 20px; border-radius:8px; background-color:#f78cc6; color:white; border:none; cursor:pointer;"
+            onclick="document.location='homepage.html'">
+            Back to Homepage
+        </button>
+
+        <button style="padding:10px 20px; border-radius:8px; background-color:#f78cc6; color:white; border:none; cursor:pointer;"
+            onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+            Back to Top
+        </button>
+
+    </p>
+
+</section>
+
+<footer>
+    <p>&copy; 2025 Nur Ellyana Natasha's Personal Website</p>
+</footer>
+
+</body>
+</html>
+
+
+
